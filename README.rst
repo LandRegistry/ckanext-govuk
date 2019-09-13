@@ -56,7 +56,7 @@ To install ckanext-govuk:
 
 2. Install the ckanext-govuk Python package into your virtual environment::
 
-     pip install ckanext-govuk
+     pip install ckanext-govuk (not currently available via pip)
 
 3. Add ``govuk`` to the ``ckan.plugins`` setting in your CKAN
    config file (by default the config file is located at
@@ -85,7 +85,7 @@ Development Installation
 To install ckanext-govuk for development, activate your CKAN virtualenv and
 do::
 
-    git clone https://github.com//ckanext-govuk.git
+    git clone https://github.com/LandRegistry/ckanext-govuk.git
     cd ckanext-govuk
     python setup.py develop
     pip install -r dev-requirements.txt
